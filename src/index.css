@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.read-more {
+  display: inline-block;
+  margin-top: 18px;
+  color: #8a2be2;
+  text-decoration: none;
+  transition: all 0.3s; 
+  font-size: 19px;
+}
+
+.read-more:hover {
+  color: white;
+}
+
+.cards:hover {
+  transform: translateY(-10px);
+}
+
+p {
+  font-weight: 400;
+}
